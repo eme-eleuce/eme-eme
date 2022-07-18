@@ -1,21 +1,29 @@
 import React from 'react'
 import IgFoto from './igfoto';
+import Foto1 from '../public/foto/astronauta.jpg.jpg';
+import Foto2 from '../public/foto/felix.png';
+import Foto3 from '../public/foto/u.jpg';
+import Foto4 from '../public/foto/ni.png';
+import Foto5 from '../public/foto/ro.jpg';
+import Foto6 from '../public/foto/ea.jpg';
+import { RoughNotation } from 'react-rough-notation';
+
 
 
 
 const Instagram = () => {
   return (
-    <div className='max-w-[1240px] mx-auto text-center py-24'>
-        <p className='text-2xl font-bold'>Follow me on Instagram Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan nisi hendrerit augue molestie tempus. Phasellus purus quam, aliquet nec commodo quis, pharetra ut orci. Donec laoreet ligula nisl, placerat molestie mauris luctus id. Fusce dapibus non libero nec lobortis. Nullam iaculis nisl ac eros consequat, sit amet placerat massa vulputate. Maecenas euismod volutpat ultrices. Pellentesque felis ex, ullamcorper in felis finibus, feugiat dignissim augue. Integer malesuada non eros consectetur interdum. Mauris mollis non urna in porta.</p>
-        <p className='pb-4 text-lg'>@eme.eth</p>
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 p-4'>
+    <div id='galeria' className='max-w-[1240px] mx-auto text-center py-16'>
+        <p className='text-center text-3xl pb-5 py-6'>you can see more content in the <RoughNotation type="circle" show={true} color="#ff1a1a" strokeWidth='2px'    animationDelay='3000' animationDuration='900'> work </RoughNotation>  section </p>
+      
+        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2'>
            
-        from-indigo-300 to-fuchsia-400
-        from-green-300 to-amber-300
-        from-rose-500 to-orange-500
-        from-teal-400 to-cyan-400
-        from-pink-400 to-rose-400 
-        from-cyan-400 to-sky-400
+            <IgFoto imgS={Foto2} className='col-start-2 col-span-2'/>
+            <IgFoto imgS={Foto3} className=' col-span-1'/>
+            <IgFoto imgS={Foto4} className='col-auto col-end-2'/>
+            <IgFoto imgS={Foto1} className='col-span-2'/>
+            <IgFoto imgS={Foto5} />
+            <IgFoto imgS={Foto6} className='row-span-2'/>
         </div>
     </div>
   )

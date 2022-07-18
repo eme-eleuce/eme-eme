@@ -3,7 +3,7 @@
 
 export const Fotos = [
     {
-      image: ' https://cbupghhlrkrzqpwiaulr.supabase.co/storage/v1/object/sign/fotos/espacio.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmb3Rvcy9lc3BhY2lvLmpwZyIsImlhdCI6MTY1NzY2MTI3OCwiZXhwIjoxOTczMDIxMjc4fQ.wjrosmUAO9exzQIPES3I_6tD-VDXX23HR2cxXaDPcio&t=2022-07-12T21%3A38%3A36.969Z',
+      image: 'https://cbupghhlrkrzqpwiaulr.supabase.co/storage/v1/object/sign/fotos/espacio.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmb3Rvcy9lc3BhY2lvLmpwZyIsImlhdCI6MTY1NzY2MTI3OCwiZXhwIjoxOTczMDIxMjc4fQ.wjrosmUAO9exzQIPES3I_6tD-VDXX23HR2cxXaDPcio&t=2022-07-12T21%3A38%3A36.969Z',
     },
     {
       image:

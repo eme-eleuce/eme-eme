@@ -33,21 +33,18 @@ const Navbar = () => {
 
   return (
     <div style={{backgroundColor: `${color}`}} className='fixed top-0 left-0 w-full z-10 ease duration-500'>
-        <div className='max-w-[1240px] m-auto flex justify-center items-center p-4 py-2 text-white'>
+        <div className='max-w-[1240px] m-auto flex justify-center items-center p-4 py-2 text-[#E9E9EB]'>
             
             
             
             <ul style={{color: `${textColor}`}} className='hidden sm:flex '>
-                <li className='p-3  text-2xl'>
+                <li className='p-3 ml-6 text-2xl'>
                      <Link href='/'> home</Link>
                 </li>
-                <li className='p-3 ml-5 text-2xl'>
-                     <Link href='/#galeria'> galeria</Link>
-                </li>
-                <li className='p-3 ml-5 text-2xl'>
+                <li className='p-3 ml-6 text-2xl'>
                      <Link href='/work'> work</Link>
                 </li>
-                <li className='p-3 ml-5 text-2xl'>
+                <li className='p-3 ml-6 text-2xl'>
                      <Link href='/contact'> contact</Link>
                 </li>
             </ul>
@@ -62,9 +59,6 @@ const Navbar = () => {
             <ul>
                 <li onClick={() => setNav(false)} className='p-4 hover:text-gray-400 text-4xl'>
                      <Link href='/'> Home</Link>
-                </li>
-                <li onClick={() => setNav(false)} className='p-4 hover:text-gray-400 text-4xl'>
-                     <Link href='/#galeria'> Galeria</Link>
                 </li>
                 <li onClick={() => setNav(false)} className='p-4 hover:text-gray-400 text-4xl'>
                      <Link href='/work'> Work</Link>

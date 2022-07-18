@@ -24,37 +24,7 @@ const Galeria = ({ fotos }) => {
         <p className='text-center text-2xl'>you can see more content in the work section</p>
         <div className='relative flex justify-center p-4'>
   
-        {Fotos.map((foto, index) => {
-          return (
-            <div
-              key={index}
-              
-                 
-              
-            >
-                <VscArrowLeft
-                  onClick={prevSlide}
-                  className='absolute top-[50%] left-[30px] md:left-[130px] lg:left-[280px] text-white/70 cursor-pointer select-none z-[2]'
-                  size={50}
-                />
-                {index === current && (
-                  <Image
-                    src={foto.image}
-                    alt='/'
-                    width='700'
-                    height='600'
-                    objectFit='cover'
-                    priority
-                  />
-                )}
-                <VscArrowRight
-                  onClick={nextSlide}
-                  className='absolute top-[50%] right-[30px] md:right-[130px] lg:right-[280px] text-white/70 cursor-pointer select-none z-[2]'
-                  size={50}
-                />
-              </div>
-          );
-      })}
+        
       </div>
       </div>
     );
