@@ -1,3 +1,3 @@
-💥💥💥💥💥 Personal portfolio / photography 📸 and other stuff 🎨 
-- Using Next.js ⚛ / Tailwind 💨
-- RoughNotation and React Typed 
+# Personal portfolio 💥💥💥/ photography 📸 and other stuff 🎨 
+# - Using Next.js ⚛ / Tailwind 💨
+# - RoughNotation and React Typed 
