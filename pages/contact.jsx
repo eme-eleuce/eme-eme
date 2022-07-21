@@ -35,7 +35,7 @@ const Contacto = () => {
         <p className='mb-8 text-2xl'>born and raised in <RoughNotation type="highlight" show={true} color="#66ff66" strokeWidth='2px'  padding={'left'}  animationDelay='3000' animationDuration='1000'> Venezuela </RoughNotation> / 23 years old / currently in Ecuador</p>
         <p className="mt-2 text-2xl text-center ">
         
-          Available for anything, I like to keep my mind busy, creating things and expanding my knowledge. Looking for an <RoughNotation type="circle"  show={true} color="#ffb066" strokeWidth='2px' animationDelay='4000' animationDuration='1100' padding={'right'}>opportunity </RoughNotation> and cooperate with other people to keep improving my skills.
+          I like to keep my mind busy, creating things and expanding my knowledge. Available for anything, looking for an <RoughNotation type="circle"  show={true} color="#ffb066" strokeWidth='2px' animationDelay='4000' animationDuration='1100' padding={'right'}>opportunity </RoughNotation> to cooperate with other people to keep improving my skills.
         
            </p>
         <div

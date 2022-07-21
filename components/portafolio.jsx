@@ -11,7 +11,7 @@ const Portafolio = () => {
           Portafolio
         </RoughNotation>
         </h1>
-        <p className='text-2xl'>Everything has been created without thinking too much, just so i don&apos;t get eaten up by boredom and <RoughNotation type="crossed-off" show={true} color="#ff4242" strokeWidth='2px'  padding={'left'}  animationDelay='4000' animationDuration='1000'>overstimulation.</RoughNotation>I observe my environment, my dreams, and everything makes more sense, despite how simple they are, it is a great process to create these images. I still need to improve in many aspects for the result to be more authentic.</p>
+        <p className='text-2xl'>Everything has been created without thinking too much, just so i don&apos;t get eaten up by boredom and <RoughNotation type="crossed-off" show={true} color="#ff4242" strokeWidth='2px'  padding={'left'}  animationDelay='4000' animationDuration='1000'>overstimulation.</RoughNotation>I observe my environment, my dreams, and everything makes more sense, despite how simple they are, it is a great process to create these images. I still need to improve in many aspects so the result will be more authentic.</p>
          <div className='mt-10 grid grid-cols-1 md:grid-cols-2  gap-2'>
         {Fotos.map((foto, index) =>  {
             return (
